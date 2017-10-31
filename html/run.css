@@ -1,0 +1,86 @@
+
+body {
+	background-color: black;
+	color: white;
+	
+}
+.MenuPrincipal {
+	width: 100;
+	list-style-type: none;	
+	padding: 0;
+	margin: 2px;
+}
+.MenuPrincipal li{	
+	background-color: #CBCBCB;
+	color: black;
+	padding: 0;
+	margin: 0;
+	float: left;
+	width: 25%;
+	font-size: 250%;
+	font: ThreeDLightShadow;
+	text-align: center;
+}
+.MenuPrincipal a{
+	color: white;
+	text-decoration:none;
+}
+.MenuPrincipal li:hover {
+	background-color: #D4AC0D;
+}
+.ContenidoPrincipal{
+	width: 65%;
+	float: left;
+}
+.ContenidoPrincipal img{
+	margin-left: 5%;	
+	float: left;
+	width: 30%;
+	height:auto;
+	padding-bottom: 10px;
+}
+.datosDeModulos{
+	float: left;
+	width: 50%;
+}
+h1, h2{
+	background-color: red;
+}
+
+
+aside table {
+	margin-top: 10%;
+	margin-top: 5px;
+	width: 35%;	
+	float: right;
+}
+aside th, td {
+	margin-bottom: 20px;
+    border: 8px solid #CBCBCB;
+	padding: 10px;
+    text-align: center;
+	font-size: 200%;
+}
+article table {
+	margin-top: 10%;
+	margin-top: 5px;
+	width: 65%;	
+	float: left;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+article th, td {
+	margin-bottom: 20px;
+    border: 8px solid #CBCBCB;
+	padding: 10px;
+    text-align: center;
+	font-size: 150%;
+}
+article a{
+	color: red;
+	text-decoration:none;
+}
+footer {
+	width: 100%;
+	clear: both;
+}
